@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+{% for object in context %}
+<h3><a href="{% url 'info' object.id %}" style="color:#595959;">{{ object.title }} </a> </h3><br>
+
+
+{% endfor %}
+<h3><a href="{% url 'detail' %}" > <button >Create your own news</button></a></h3>
+{% endblock %}
+

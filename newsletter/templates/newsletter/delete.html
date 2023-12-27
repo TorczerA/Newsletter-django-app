@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+<form method = "POST" ENCTYPE="multipart/form-data">
+    {% csrf_token %}
+<h2><i>Are you sure you want to delete this news?</i></h2>
+<input type="Submit">
+
+</form>
+{% endblock %}

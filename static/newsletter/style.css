@@ -1,0 +1,10 @@
+body{
+    background-image: url('/static/images/wallpaper.png');
+    background-size: cover; /* Adjust as needed */
+    background-repeat: no-repeat;
+}
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
